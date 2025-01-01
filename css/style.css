@@ -13,7 +13,7 @@
 
   --clr-light: #fff;
   --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-accent: #00A9FF;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -456,4 +456,18 @@ footer a {
 
 .social-list__link {
   padding: 0.5em;
+}
+
+/* Portfolio item */
+
+.portfolio-item-individual{
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual p{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
