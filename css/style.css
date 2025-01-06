@@ -68,13 +68,25 @@ a,
   transition: all 0.5s ease;
 }
 
-i {
-  font-size: 2em;
-}
-
 /* Utility class */
 .flex__container {
   display: flex;
+}
+
+.fs-400 {
+  font-size: 1.5rem;
+}
+
+.fs-500 {
+  font-size: 1.75rem;
+}
+
+.fs-600 {
+  font-size: 2rem;
+}
+
+.fs-primary-heading{
+  font-size: 3rem;
 }
 
 /* Navigation */
@@ -87,7 +99,6 @@ i {
 .nav__list {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
 }
 
 .nav__link,
@@ -105,11 +116,7 @@ i {
 }
 
 .logo {
-  font-size: 2rem;
-
-  &:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
 }
 
 section {
@@ -167,7 +174,6 @@ section {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
   color: var(--clr-neutral-100);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -213,7 +219,6 @@ section {
 }
 
 .intro__text h1 {
-  font-size: 3rem;
   text-align: center;
 }
 
@@ -221,12 +226,10 @@ section {
   font-weight: 600;
 
   &:first-child {
-    font-size: 1.5rem;
     text-align: center;
   }
 
   &:nth-of-type(2) {
-    font-size: 1.75rem;
     margin-bottom: 1rem;
   }
 }
