@@ -1,12 +1,16 @@
-const navToggle = document.querySelector('.nav-toggle');
-const navLinks = document.querySelectorAll('.nav__link');
+const menu = document.querySelector('.mobile__menu--list');
+const hamburgerIcon = document.querySelector('.hamburger__icon');
 
-navToggle.addEventListener('click', () => {
-  document.body.classList.toggle('nav-open');
+hamburgerIcon.addEventListener('click', () => {
+  hamburgerIcon.classList.toggle('open');
+  menu.classList.toggle('open');
 });
 
-navLinks.forEach((link) => {
-  link.addEventListener('click', () => {
-    document.body.classList.remove('nav-open');
-  });
+menu.addEventListener('click', (e) => {
+  const linkEl = e.target.closest('.mobile__menu--link');
+  console.log();
+  if (linkEl) {
+    hamburgerIcon.classList.toggle('open');
+    menu.classList.toggle('open');
+  }
 });
