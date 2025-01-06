@@ -20,12 +20,12 @@
 
 <body>
   <header>
-    <nav class="nav" id="desktop__nav" aria-label="Primary">
+    <nav class="nav flex__container" id="desktop__nav" aria-label="Primary">
       <div class="logo">
         <a href="#" class="logo__link">Hasitha Jayasundara</a></li>
       </div>
       <div>
-        <ul class="nav__list" role="list">
+        <ul class="nav__list flex__container" role="list">
           <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
           <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
           <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
@@ -34,9 +34,9 @@
       </div>
     </nav>
     <nav class="nav" id="mobile__nav" aria-label="Mobile">
-      <div class="mobile__logo">Hasitha Jayasundara</div>
+      <div class="logo">Hasitha Jayasundara</div>
       <div class="mobile__menu">
-        <div class="hamburger__icon">
+        <div class="hamburger__icon flex__container">
           <span></span>
           <span></span>
           <span></span>
@@ -54,133 +54,31 @@
   </header>
 
   <!--Introduction-->
-  <section class="intro" id="home">
-    <h1 class="section__title section__title--intro">
-      Hi, I am <strong>Hasith Jayasundara</strong>
-    </h1>
-    <p class="section__subtitle section__subtitle--intro">Software engineer</p>
-    <img src="img/hasithaj-01.png" alt="A picture of Hasitha Jayasundara" class="intro__img" />
-  </section>
-
-  <!--My services-->
-  <section class="my-services" id="services">
-    <h2 class="section__title section__title--services">What I do</h2>
-    <div class="services">
-      <div class="service">
-        <h3>Design + Development</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat.</p>
-      </div>
-
-      <div class="service">
-        <h3>E-Commerce</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat.</p>
-      </div>
-
-      <div class="service">
-        <h3>WordPress</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat.</p>
-      </div>
+  <section class="intro flex__container">
+    <div class="intro__img">
+      <img src="./img/hasithaj-01.png" alt="Hasitha Jayasundara's picture">
     </div>
-    <a href="#work" class="btn">My Work</a>
-  </section>
-
-  <!--About me-->
-  <section class="about-me" id="about">
-    <h2 class="section__title section__title-about">Who I am</h2>
-    <p class="section__subtitle section__subtitle--about"> A software engineer based on Germany</p>
-
-    <div class="about-me__body">
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil reprehenderit cum porro beatae
-        libero. Numquam totam, ipsum exercitationem eius, a voluptas fuga quae aliquid, natus magnam molestias
-        id tempore voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-        quaerat sunt adipisci, magni, dignissimos sit ducimus quia alias dolorum aliquam optio suscipit
-        voluptates fugiat quidem accusantium cupiditate est? Saepe, odit.
-      </p>
-    </div>
-
-    <img src="img/hasithaj-02.png" alt="Hasitha's image" class="about--me__img">
-  </section>
-
-  <!--My work-->
-  <section class="my-work" id="work">
-    <h2 class="section__title section__title--work">My work</h2>
-    <p class="section__subtitle section__subtitle--work"></p>
-
-    <div class="portfolio">
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
-      </a>
-
-      <!-- Portfolio item 02 -->
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
-      </a>
-
-      <!-- Portfolio item 03 -->
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-      </a>
-
-      <!-- Portfolio item 04 -->
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-      </a>
-
-      <!-- Portfolio item 05 -->
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
-      </a>
-
-      <!-- Portfolio item 06 -->
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
-      </a>
-
-      <!-- Portfolio item 07 -->
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
-      </a>
-
-      <!-- Portfolio item 08 -->
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-      </a>
-
-      <!-- Portfolio item 09 -->
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-      </a>
-
-      <!-- Portfolio item 0 0-->
-      <a href="#" class="portfolio__item">
-        <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
-      </a>
+    <div class="intro__text">
+      <p>Hello, I'm</p>
+      <h1>Hasitha Jayasundara</h1>
+      <p class="intro__position">Software Engineer</p>
+      <button class="btn--inverted">Download CV</button>
+      <ul class="social__list flex__container">
+        <li class="social__item">
+          <a class="social__link" href="https://github.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 
-  <!--Footer-->
-  <footer>
-    <a href="mailto:hello@jane.dev" class="footer__link">hello@hasitha.dev</a>
-    <ul class="social-list">
-      <li class="social-list__item">
-        <a class="social-list__link" href="https://github.com">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <li class="social-list__item">
-        <a class="social-list__link" href="https://github.com">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-    </ul>
-  </footer>
+
 </body>
 
 </html>

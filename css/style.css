@@ -9,11 +9,11 @@
 :root {
   --ff-primary: 'Poppins', sans-serif;
 
-  --clr-primary: #555555;
+  --clr-primary-200: #555555;
+  --clr-primary-400: #353535;
   --clr-neutral-100: #000;
   --clr-neutral-900: #fff;
 }
-
 
 /* General styles */
 
@@ -31,20 +31,53 @@ img {
 }
 
 p {
-  color: var(--clr-primary);
+  color: var(--clr-primary-200);
+}
+
+.btn,
+.btn--inverted {
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: var(--clr-primary-400) 0.1rem solid;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--clr-neutral-100);
+  }
+}
+
+.btn {
+  color: var(--clr-neutral-900);
+  background-color: var(--clr-primary-400);
+}
+
+.btn--inverted {
+  background: none;
+}
+
+.btn--inverted:hover {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-900);
+  border: var(--clr-neutral-900) 0.1rem solid;
 }
 
 a,
-.btn {
-  transition: all 2s ease;
+.btn,
+.btn--inverted {
+  transition: all 0.5s ease;
 }
 
-/* Navigation */
-.nav,
-.nav__list {
+i {
+  font-size: 2em;
+}
+
+/* Utility class */
+.flex__container {
   display: flex;
 }
 
+/* Navigation */
 .nav {
   justify-content: space-around;
   align-items: center;
@@ -65,9 +98,9 @@ a,
 }
 
 .nav__link:hover {
-  color: var(--clr-primary);
+  color: var(--clr-primary-200);
   text-decoration: underline;
-  text-decoration-color: var(--clr-primary);
+  text-decoration-color: var(--clr-primary-200);
   text-underline-offset: 1rem;
 }
 
@@ -77,6 +110,12 @@ a,
   &:hover {
     cursor: pointer;
   }
+}
+
+section {
+  padding-top: 4vh;
+  margin: 0 10rem;
+  min-height: fit-content;
 }
 
 /* Mobile navigation */
@@ -90,7 +129,6 @@ a,
 }
 
 .hamburger__icon {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 24px;
@@ -149,4 +187,58 @@ a,
 
 .hamburger__icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
+}
+
+/* Intro section */
+.intro {
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+  flex-wrap: wrap;
+}
+
+.intro__img {
+  min-height: 300px;
+  min-width: 300px;
+  margin: auto 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.intro__text {
+  align-self: center;
+  text-align: center;
+}
+
+.intro__text h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.intro__text p {
+  font-weight: 600;
+
+  &:first-child {
+    text-align: center;
+  }
+
+  &:nth-of-type(2) {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.social__list {
+  justify-content: center;
+  margin-top: 1rem;
+  list-style: none;
+  gap: 1rem;
+}
+
+.social__item {
+  cursor: pointer;
+}
+
+.social__link:visited {
+  color: var(--clr-neutral-100);
 }
