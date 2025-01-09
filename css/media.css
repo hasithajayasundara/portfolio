@@ -1,9 +1,0 @@
-@media (max-width: 1200px){
-  #desktop__nav{
-    display: none;
-  }
-
-  #mobile__nav{
-    display: flex;
-  }
-}
