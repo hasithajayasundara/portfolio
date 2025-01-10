@@ -1,13 +1,11 @@
 
-'use client';
-
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 type Props = {
   href: string;
   title: string;
-  className: string;
+  className?: string;
 };
 
 export const CustomLink = ({ href, title, className = "" }: Props) => {
