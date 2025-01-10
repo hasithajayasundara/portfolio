@@ -6,7 +6,7 @@ import { Layout } from "@/components/Layout";
 import { AnimatedText } from "@/components/AnimatedText";
 import profilePic from '../public/images/profile/developer-pic-1.png';
 
-export default function Home() {
+const Home = () => {
   return (
     <main className="flex items-center w-full min-h-screen text-dark bg-light">
       <Layout className="pt-0">
@@ -46,4 +46,6 @@ export default function Home() {
       </Layout>
     </main>
   );
-}
+};
+
+export default Home;
