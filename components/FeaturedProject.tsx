@@ -3,7 +3,6 @@ import Link from "next/link";
 import { GitHubIcon } from "./Icons";
 
 type Props = {
-  type?: string;
   title?: string;
   summary?: string;
   img?: StaticImageData | string;
@@ -12,7 +11,6 @@ type Props = {
 }
 
 export const FeaturedProject = ({
-  type,
   title,
   summary,
   img,
@@ -20,27 +18,26 @@ export const FeaturedProject = ({
   github,
 }: Props) => {
   return (
-    <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12">
-      <Link href={link ?? "#"} target="_blank" className="w-1/2 cursor-pointer overflow-hidden rounded-lg">
+    <article className="w-full flex flex-col items-center rounded-2xl border border-solid border-dark bg-light shadow-2xl p-4">
+      <Link href={link ?? "#"} target="_blank" className="cursor-pointer overflow-hidden rounded-lg lg:w-full lg:pl-0 lg:pt-6">
         <Image
           src={img ?? ''}
           alt={title ?? ''}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </Link>
-      <div className="w-1/2 flex flex-col items-start justify-between pl-6">
-        <span className="text-primary font-medium text-xl">{type}</span>
+      <div className="w-full flex flex-col items-start justify-between lg">
         <Link href={link ?? ''} target="_blank" className="hover:underline underline-offset-2">
-          <h2 className="my-2 w-full text-left text-4xl font-bold">
+          <h2 className="mt-2 w-full text-left text-2xl font-bold sm:text-sm">
             {title}
           </h2>
         </Link>
         <p className="my-2 font-medium text-dark">{summary}</p>
-        <div className="mt-2 flex items-center">
+        <div className="w-full flex items-center justify-between">
           <Link href={github ?? ''} target="_blank" className="w-10">
             <GitHubIcon />
           </Link>
-          <Link href={link ?? ''} target="_blank" className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold">
+          <Link href={link ?? ''} target="_blank" className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base">
             Visit project
           </Link>
         </div>

@@ -14,22 +14,20 @@ export const Education = () => {
 
   return (
     <>
-      <h2 className="font-bold text-8xl mt-64 w-full text-center mb-16">
+      <h2 className="font-bold text-8xl mt-64 w-full text-center mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8">
         Education
       </h2>
-      <div className="ww-[75%] mx-auto relative" ref={ref}>
+      <div className="w-[75%] lg:w-[90%] mx-auto relative" ref={ref}>
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top"
+          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
-        <ul className="w-full flex flex-col items-center justify-between ml-4" >
+        <ul className="w-full flex flex-col items-center justify-between ml-4 xs:ml-2" >
           <EducationDetails
             type="Bachelor of Science in Engineering (Electronics and Telecommunication)"
             time="2014 - 2018"
             place="Colombo, Sri Lanka"
-            info="Enable agents to execute critical business functions, support branch operations, and enhance daily transaction efficiency by
-leading management of five core web applications. Upkeep the component library and CI/CD configurations for all frontend
-back-office applications by acting as core team member."
+            info=""
           />
         </ul>
       </div>

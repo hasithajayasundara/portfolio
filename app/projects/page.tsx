@@ -7,11 +7,10 @@ const Projects = () => {
   return (
     <main className="flex w-full flex-col items-center justify-center">
       <Layout className="pt-16">
-        <AnimatedText text="Imagination trumps knowledge" className="mb-16" />
-        <div className="grid grid-cols-12 gap-24">
-          <div className="col-span-12">
+        <AnimatedText text="Projects" className="mb-16 lg:!text-7xl sm:!mb-8m sm:!text-6xl xs:!text-4xl" />
+        <div className="grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+          <div className="col-span-4 md:col-span-12">
             <FeaturedProject
-              type="Featured project"
               title="Nexter"
               summary="Landing page for real state service"
               img={project1}
@@ -19,18 +18,14 @@ const Projects = () => {
               github="/"
             />
           </div>
-          <div className="col-span-6">
+          <div className="col-span-4 md:col-span-12">
             <FeaturedProject
-              type="Featured project"
               title="Nexter"
               summary="Landing page for real state service"
               img={project1}
               link="/"
               github="/"
             />
-          </div>
-          <div className="col-span-6">
-            Project 2
           </div>
         </div>
       </Layout>

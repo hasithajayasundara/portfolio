@@ -20,7 +20,7 @@ const Home = () => {
             />
           </div>
           <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
-            <AnimatedText text="Turning Vision Into Reality With Code and Design"
+            <AnimatedText text="Hi, I'm Hasitha"
               className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
             />
             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
@@ -43,7 +43,9 @@ const Home = () => {
               </Link>*/}
               <Link
                 href="#"
-                className="ml-4 text-lg font-medium capitalize text-dark underline"
+                className="flex items-center gap-5 bg-dark text-light p-2 px-6 rounded-lg text-lg 
+                font-semibold hover:bg-light hover:text-dark border-2
+                border-solid border-transparent hover:border-dark"
               >
                 Contact
               </Link>
