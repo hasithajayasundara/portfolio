@@ -19,7 +19,7 @@ const Home = () => {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
-          <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
+          <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center text-dark">
             <AnimatedText text="Hi, I'm Hasitha"
               className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
             />

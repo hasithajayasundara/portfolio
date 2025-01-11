@@ -13,8 +13,8 @@ const About = () => {
       <Layout className="pt-16">
         <AnimatedText text="About me" className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
         <div className="grid grid-cols-4 gap-16 sm:gap-8">
-          <div className="col-span-3 flex flex-col items-start justify-start lg:col-span-4 lg:order-2">
-            <p className="font-medium text-dark">
+          <div className="col-span-3 flex flex-col items-start justify-start lg:col-span-4 lg:order-2 text-dark">
+            <p className="font-medium">
               Proven history of success in architecting and developing cutting-edge software solutions, streamlining development
               processes, and enhancing operational efficiency through automation and modern tooling. Skilled in optimising full-stack
               applications, migrating legacy systems,and driving significant performance improvements using technologies like React,

@@ -32,7 +32,7 @@ export const EducationDetails = ({
         <span className="capitalize font-medium text-dark/75 xs:text-sm">
           {time} | {place}
         </span>
-        <p className="font-medium w-full">
+        <p className="font-medium w-full text-dark">
           {info}
         </p>
       </motion.div>
