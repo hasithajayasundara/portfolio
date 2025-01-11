@@ -2,7 +2,9 @@ import Image from "next/image";
 
 import { AnimatedText } from "@/components/AnimatedText";
 import { Layout } from "@/components/Layout";
+import { Skills } from "@/components/Skills";
 import profilePic from '../../public/images/profile/hasithaj-01.png';
+import { Experience } from "@/components/Experience";
 
 const About = () => {
   return (
@@ -15,7 +17,7 @@ const About = () => {
               About me
             </h2>
             <p className="font-medium">
-              - Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
+              - Hi, I&apos;m Hasitha Jayasundara, a web developer and UI/UX designer with a passion for creating beautiful, functional,
               and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
               new and innovative ways to bring my clients&apos; visions to life.
             </p>
@@ -37,6 +39,8 @@ const About = () => {
             />
           </div>
         </div>
+        <Skills />
+        <Experience />
       </Layout>
     </main>
   )
