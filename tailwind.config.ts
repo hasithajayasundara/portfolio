@@ -7,6 +7,7 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -19,6 +20,14 @@ export default {
         primaryDark: "#58E6D9",
       },
     },
+    screens: {
+      "2xl": { max: "1535px" },
+      xl: { max: "1279px" },
+      lg: { max: "1023px" },
+      md: { max: "767px" },
+      sm: { max: "639px" },
+      xs: { max: "479px" },
+  },
   },
   plugins: [],
 } satisfies Config;

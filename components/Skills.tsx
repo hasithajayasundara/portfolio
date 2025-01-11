@@ -60,7 +60,7 @@ export const Skills = () => (
     <h2 className="font-bold text-8xl mt-64 w-full text-center mb-16">
       Skills
     </h2>
-    <div className="w-full h-full grid grid-cols-7 gap-10">
+    <div className="w-full h-full grid grid-cols-7 gap-10 xl:grid-cols-5 md:grid-cols-4 xs:grid-cols-2">
       {config.map(({ name, icon: Icon }) => (
         <motion.div
           key={name}
