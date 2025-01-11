@@ -1,25 +1,20 @@
 import { useRef } from "react";
-import Link from "next/link";
 import { motion } from 'framer-motion';
 
 import { ListIcon } from "./ListIcon";
 
 type Props = {
-  position: string;
-  company: string;
-  companyLink: string;
+  type: string;
   time: string;
-  address: string;
-  work: string;
+  place: string;
+  info: string;
 };
 
-export const ExperienceDetails = ({
-  position,
-  company,
-  companyLink = "",
+export const EducationDetails = ({
+  type,
+  place,
   time,
-  address,
-  work,
+  info,
 }: Props) => {
   const ref = useRef(null);
 
@@ -32,16 +27,13 @@ export const ExperienceDetails = ({
         transition={{ duration: 0.5, type: 'spring' }}
       >
         <h3 className="font-bold text-2xl">
-          {position}&nbsp;
-          <Link href={companyLink} target="_blank" className="text-primary">
-            @{company}
-          </Link>
+          {type}
         </h3>
         <span className="capitalize font-medium text-dark/75">
-          {time} | {address}
+          {time} | {place}
         </span>
         <p className="font-medium w-full">
-          {work}
+          {info}
         </p>
       </motion.div>
     </li>
