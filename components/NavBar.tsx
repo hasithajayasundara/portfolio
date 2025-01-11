@@ -31,12 +31,12 @@ export const NavBar = () => {
           animate={{ scale: 1, opacity: 1 }}
           className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 rounded-lg backdrop-blur-md py-32"
         >
-          <nav className="flex items-center flex-col justify-center">
+          <nav className="flex items-center flex-col justify-center gap-3">
             <CustomMobileLink href="/" title="Home" onClick={handleClick} />
             <CustomMobileLink href="/about" title="About" onClick={handleClick} />
             <CustomMobileLink href="/projects" title="Projects" onClick={handleClick} />
           </nav>
-          <nav className="flex items-center justify-center flex-wrap mt-2 gap-3">
+          <nav className="flex items-center justify-center flex-wrap mt-8 gap-3">
             <MotionLink href="https://github.com/hasithajayasundara" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
               <GitHubIcon className=" bg-light rounded-full w-8" />
             </MotionLink>
