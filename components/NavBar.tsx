@@ -38,10 +38,10 @@ export const NavBar = () => {
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2 gap-3">
             <MotionLink href="https://github.com/hasithajayasundara" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
-              <GitHubIcon className=" bg-light rounded-full w-20" />
+              <GitHubIcon className=" bg-light rounded-full w-8" />
             </MotionLink>
             <MotionLink href="https://www.linkedin.com/in/hasithanjo2/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
-              <LinkedInIcon />
+              <LinkedInIcon className="w-8"/>
             </MotionLink>
             {/*<button onClick={() => setMode(mode === 'light' ? 'dark' : 'light')} className="ml-3 flex items-center justify-center rounded-full p-1">
           {mode === 'dark' ? <SunIcon className="fill-dark" /> : <MoonIcon className="fill-dark" />}

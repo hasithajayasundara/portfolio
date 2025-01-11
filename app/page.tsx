@@ -10,12 +10,12 @@ const Home = () => {
     <main className="flex items-center w-full min-h-screen text-dark">
       <Layout className="pt-0 md:pt-16 sm:pt-8">
         <div className="flex items-center justify-center w-full lg:flex-col gap-16">
-          <div className="w-80 md:w-ful bg-primary flex items-center justify-center rounded-full overflow-hidden">
+          <div className="w-70 h-70  bg-primary flex items-center justify-center rounded-full overflow-hidden">
             <Image
               priority
               src={profilePic}
               alt="Hasitha Jayasundara's picture"
-              className="w-auto md:inline-block md:w-full"
+              className="w-full md:inline-block"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
