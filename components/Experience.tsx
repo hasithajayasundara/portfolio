@@ -29,8 +29,8 @@ export const Experience = () => {
             time="2020 — 2022"
             address="Munich, Germany"
             companyLink="https://sixt.de"
-            work="Enable agents to execute critical business functions, support branch operations, and enhance daily transaction efficiency by
-leading management of five core web applications. Upkeep the component library and CI/CD configurations for all frontend
+            work="Enable agents to execute critical business functions, support branch operations, and enhance daily transaction 
+            efficiency by managing five core web applications. Upkeep the component library and CI/CD configurations for all frontend
 back-office applications by acting as core team member."
           />
           <ExperienceDetails
