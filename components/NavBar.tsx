@@ -34,14 +34,14 @@ export const NavBar = () => {
           <nav className="flex items-center flex-col justify-center">
             <CustomMobileLink href="/" title="Home" onClick={handleClick} />
             <CustomMobileLink href="/about" title="About" onClick={handleClick} />
-            <CustomMobileLink href="/projects" title="Projects" onClick={handleClick} />
+            {/*<CustomMobileLink href="/projects" title="Projects" onClick={handleClick} />*/}
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2 gap-3">
             <MotionLink href="https://github.com/hasithajayasundara" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
-              <GitHubIcon className="w-6 bg-light rounded-full" />
+              <GitHubIcon className=" bg-light rounded-full w-20" />
             </MotionLink>
             <MotionLink href="https://www.linkedin.com/in/hasithanjo2/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
-              <LinkedInIcon className="w-6" />
+              <LinkedInIcon />
             </MotionLink>
             {/*<button onClick={() => setMode(mode === 'light' ? 'dark' : 'light')} className="ml-3 flex items-center justify-center rounded-full p-1">
           {mode === 'dark' ? <SunIcon className="fill-dark" /> : <MoonIcon className="fill-dark" />}
@@ -54,14 +54,14 @@ export const NavBar = () => {
         <nav className="flex gap-8">
           <CustomLink href="/" title="Home" />
           <CustomLink href="/about" title="About" />
-          <CustomLink href="/projects" title="Projects" />
+          {/*<CustomLink href="/projects" title="Projects" />*/}
         </nav>
         <nav className="flex items-center justify-center flex-wrap gap-3">
           <MotionLink href="https://github.com/hasithajayasundara" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
-            <GitHubIcon className="w-6" />
+            <GitHubIcon className="w-8" />
           </MotionLink>
           <MotionLink href="https://www.linkedin.com/in/hasithanjo2/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
-            <LinkedInIcon className="w-6" />
+            <LinkedInIcon className="w-8" />
           </MotionLink>
           {/*<button onClick={() => setMode(mode === 'light' ? 'dark' : 'light')} className="ml-3 flex items-center justify-center rounded-full p-1">
           {mode === 'dark' ? <SunIcon className="fill-dark" /> : <MoonIcon className="fill-dark" />}

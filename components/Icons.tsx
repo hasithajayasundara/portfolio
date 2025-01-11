@@ -8,7 +8,7 @@ export const LinkedInIcon = ({ className = "", ...rest }: Props) => (
     width="1em"
     height="1em"
     viewBox="0 0 256 256"
-    className={`h-auto w-10 ${className}`}
+    className={`h-auto w-20 ${className}`}
     {...rest}
   >
     <path fill="rgba(255, 255, 255, 0)" d="M0 0h256v256H0z" />
@@ -29,7 +29,7 @@ export const GitHubIcon = ({ className = "", ...rest }: Props) => (
     width="1em"
     height="1em"
     viewBox="0 0 512 512"
-    className={`h-auto w-10 ${className}`}
+    className={`h-auto w-20 ${className}`}
     {...rest}
   >
     <path fill="rgba(255, 255, 255, 0)" d="M0 0h512v512H0z" />
