@@ -71,7 +71,7 @@ export const Skills = () => (
           whileHover={{ scale: 1.08 }}
         >
           <Icon className="w-20" />
-          <span className="mt-2 text-sm font-semibold">
+          <span className="mt-2 text-sm font-semibold text-dark">
             {name}
           </span>
         </motion.div>
