@@ -10,7 +10,7 @@ const Home = () => {
     <main className="flex items-center w-full min-h-screen text-dark">
       <Layout className="pt-0 md:pt-16 sm:pt-8">
         <div className="flex items-center justify-center w-full lg:flex-col gap-16">
-          <div className="w-70 h-70  bg-primary flex items-center justify-center rounded-full overflow-hidden">
+          <div className="w-96 flex items-center justify-center">
             <Image
               priority
               src={profilePic}
