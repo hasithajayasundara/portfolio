@@ -34,7 +34,7 @@ export const NavBar = () => {
           <nav className="flex items-center flex-col justify-center gap-3">
             <CustomMobileLink href="/" title="Home" onClick={handleClick} />
             <CustomMobileLink href="/about" title="About" onClick={handleClick} />
-            <CustomMobileLink href="/projects" title="Projects" onClick={handleClick} />
+            {/*<CustomMobileLink href="/projects" title="Projects" onClick={handleClick} />*/}
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-8 gap-3">
             <MotionLink href="https://github.com/hasithajayasundara" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
@@ -54,7 +54,7 @@ export const NavBar = () => {
         <nav className="flex gap-8">
           <CustomLink href="/" title="Home" />
           <CustomLink href="/about" title="About" />
-          <CustomLink href="/projects" title="Projects" />
+          {/*<CustomLink href="/projects" title="Projects" />*/}
         </nav>
         <nav className="flex items-center justify-center flex-wrap gap-3">
           <MotionLink href="https://github.com/hasithajayasundara" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
