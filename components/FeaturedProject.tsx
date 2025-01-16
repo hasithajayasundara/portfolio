@@ -35,11 +35,17 @@ export const FeaturedProject = ({
         <p className="my-2 font-medium text-dark">{summary}</p>
         <div className="w-full flex items-center justify-between">
           <Link href={github ?? ''} target="_blank" className="w-10">
-            <GitHubIcon />
+            <GitHubIcon className="w-8"/>
           </Link>
-          <Link href={link ?? ''} target="_blank" className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base">
-            Visit project
-          </Link>
+          {link ? (
+            <Link
+              href={link}
+              target="_blank"
+              className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base"
+            >
+              Visit project
+            </Link>
+          ) : null}
         </div>
       </div>
     </article>
