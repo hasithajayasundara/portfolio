@@ -1,10 +1,11 @@
 import { AnimatedText } from "@/components/AnimatedText";
 import { FeaturedProject } from "@/components/FeaturedProject";
 import { Layout } from "@/components/Layout";
+
 import nexter from '../../public/images/projects/nexter.png';
 import slackClone from '../../public/images/projects/slack-clone.png';
 
-export const projects = [
+const projects = [
   {
     title: "Slack Clone",
     summary: "A simplified clone of Slack, developed using modern web technologies",
