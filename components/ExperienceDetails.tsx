@@ -1,6 +1,6 @@
-import { useRef } from "react";
-import Link from "next/link";
 import { motion } from 'framer-motion';
+import Link from "next/link";
+import { useRef } from "react";
 
 import { ListIcon } from "./ListIcon";
 

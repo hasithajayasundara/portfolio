@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 import { AnimatedText } from "@/components/AnimatedText";
+import { Education } from "@/components/Education";
+import { Experience } from "@/components/Experience";
 import { Layout } from "@/components/Layout";
 import { Skills } from "@/components/Skills";
-import { Experience } from "@/components/Experience";
-import { Education } from "@/components/Education";
 import profilePic from '../../public/images/profile/hasithaj-01.png';
 
 const About = () => {

@@ -1,7 +1,7 @@
 'use client';
 
-import { useRef } from "react";
 import { useScroll, motion } from "framer-motion";
+import { useRef } from "react";
 
 import { ExperienceDetails } from "./ExperienceDetails";
 

@@ -1,5 +1,5 @@
-import { RefObject } from 'react';
 import { motion, useScroll } from 'framer-motion';
+import { RefObject } from 'react';
 
 type Props = {
   reference: RefObject<null>;

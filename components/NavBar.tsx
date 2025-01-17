@@ -1,12 +1,12 @@
 'use client';
 
-import { useState } from "react";
-import Link from "next/link";
 import { motion } from 'framer-motion';
+import Link from "next/link";
+import { useState } from "react";
 
 import { CustomLink } from "./CustomLink";
-import { GitHubIcon, LinkedInIcon } from "./Icons";
 import { CustomMobileLink } from "./CustomMobileLink";
+import { GitHubIcon, LinkedInIcon } from "./Icons";
 
 const MotionLink = motion.create(Link);
 
