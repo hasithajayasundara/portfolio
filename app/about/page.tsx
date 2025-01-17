@@ -35,7 +35,7 @@ const About = () => {
               priority
               src={profilePic}
               alt="Hasitha Jayasundara's image"
-              className="w-max h-auto rounded-2xl border-2 border-solid border-dark p-4"
+              className="w-max h-auto rounded-2xl border-2 border-solid border-dark"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>

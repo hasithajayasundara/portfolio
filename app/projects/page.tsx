@@ -16,7 +16,7 @@ const projects = [
     title: "Nexter",
     summary: "Landing page for real estate service",
     img: nexter,
-    github: "https://github.com/hasithajayasundara/websites-html-css-js",
+    github: "https://github.com/hasithajayasundara/websites-html-css-js/tree/main/nexter",
     link: "https://nextor-hnj.netlify.app/",
   },
 ];
