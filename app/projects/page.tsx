@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "Manage landing page",
-    summary: "Landing page for a imaginary company",
+    summary: "Landing page for an imaginary company",
     img: manageLandingPage,
     github: "https://github.com/hasithajayasundara/frontend-mentor-mini-projects/tree/main/manage-landing-page",
     link: "https://managelphnj.netlify.app/",

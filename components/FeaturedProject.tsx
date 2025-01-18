@@ -18,13 +18,13 @@ export const FeaturedProject = ({
   github,
 }: Props) => {
   return (
-    <article className="w-full flex flex-col items-center rounded-2xl border border-solid border-dark bg-light shadow-2xl p-4">
+    <article className="w-full flex flex-col items-center rounded-2xl border border-solid border-dark bg-light shadow-2xl overflow-hidden">
       <Image
         src={img ?? ''}
         alt={title ?? ''}
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       />
-      <div className="w-full flex flex-col items-start justify-between lg">
+      <div className="w-full flex flex-col items-start justify-between p-4">
         <Link href={link ?? ''} target="_blank" className="hover:underline underline-offset-2">
           <h2 className="mt-2 w-full text-left text-2xl font-bold sm:text-sm">
             {title}
