@@ -2,6 +2,7 @@ import { AnimatedText } from "@/components/AnimatedText";
 import { FeaturedProject } from "@/components/FeaturedProject";
 import { Layout } from "@/components/Layout";
 
+import manageLandingPage from '../../public/images/projects/manage-landing-page.png';
 import nexter from '../../public/images/projects/nexter.png';
 import slackClone from '../../public/images/projects/slack-clone.png';
 
@@ -11,6 +12,13 @@ const projects = [
     summary: "A simplified clone of Slack, developed using modern web technologies",
     img: slackClone,
     github: "https://github.com/hasithajayasundara/slack-clone",
+  },
+  {
+    title: "Manage landing page",
+    summary: "Landing page for a imaginary company",
+    img: manageLandingPage,
+    github: "https://github.com/hasithajayasundara/frontend-mentor-mini-projects/tree/main/manage-landing-page",
+    link: "https://managelphnj.netlify.app/",
   },
   {
     title: "Nexter",
