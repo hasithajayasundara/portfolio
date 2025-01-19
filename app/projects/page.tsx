@@ -5,13 +5,15 @@ import { Layout } from "@/components/Layout";
 import manageLandingPage from '../../public/images/projects/manage-landing-page.png';
 import nexter from '../../public/images/projects/nexter.png';
 import slackClone from '../../public/images/projects/slack-clone.png';
+import spaceTravel from '../../public/images/projects/space-travel.png';
 
 const projects = [
   {
-    title: "Slack Clone",
-    summary: "A simplified clone of Slack, developed using modern web technologies",
-    img: slackClone,
-    github: "https://github.com/hasithajayasundara/slack-clone",
+    title: "Space travel",
+    summary: "Page for an imaginary space travel agency",
+    img: spaceTravel,
+    github: "https://github.com/hasithajayasundara/frontend-mentor-mini-projects/tree/main/space-travel",
+    link: "https://sthnj.netlify.app/",
   },
   {
     title: "Manage landing page",
@@ -19,6 +21,12 @@ const projects = [
     img: manageLandingPage,
     github: "https://github.com/hasithajayasundara/frontend-mentor-mini-projects/tree/main/manage-landing-page",
     link: "https://managelphnj.netlify.app/",
+  },
+  {
+    title: "Slack Clone",
+    summary: "A simplified clone of Slack, developed using modern web technologies",
+    img: slackClone,
+    github: "https://github.com/hasithajayasundara/slack-clone",
   },
   {
     title: "Nexter",
