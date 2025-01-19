@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import Link from "next/link";
 import { useState } from "react";
 
-import { CustomLink } from "./CustomLink";
-import { CustomMobileLink } from "./CustomMobileLink";
-import { GitHubIcon, LinkedInIcon } from "./Icons";
+import { CustomLink } from "./custom-link";
+import { CustomMobileLink } from "./custom-mobile-link";
+import { GitHubIcon, LinkedInIcon } from "./icons";
 
 const MotionLink = motion.create(Link);
 

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { AnimatedText } from "@/components/AnimatedText";
-import { Layout } from "@/components/Layout";
+import { AnimatedText } from "@/components/animated-text";
+import { Layout } from "@/components/layout";
 import profilePic from '../public/images/profile/hasithaj-02.png';
 
 const Home = () => {

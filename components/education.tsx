@@ -3,7 +3,7 @@
 import { useScroll, motion } from "framer-motion";
 import { useRef } from "react";
 
-import { EducationDetails } from "./EducationDetails";
+import { EducationDetails } from "./education-details";
 
 export const Education = () => {
   const ref = useRef<HTMLDivElement | null>(null);

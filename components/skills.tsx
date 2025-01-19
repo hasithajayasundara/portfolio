@@ -24,7 +24,7 @@ import {
   TypeScriptIcon,
   ViteIcon,
   WebpackIcon,
-} from "./Icons";
+} from "./icons";
 
 type SkillType = {
   name: string;

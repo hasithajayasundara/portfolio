@@ -3,7 +3,7 @@
 import { useScroll, motion } from "framer-motion";
 import { useRef } from "react";
 
-import { ExperienceDetails } from "./ExperienceDetails";
+import { ExperienceDetails } from "./experience-details";
 
 const experienceConfig = [
   {

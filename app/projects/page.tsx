@@ -1,6 +1,6 @@
-import { AnimatedText } from "@/components/AnimatedText";
-import { FeaturedProject } from "@/components/FeaturedProject";
-import { Layout } from "@/components/Layout";
+import { AnimatedText } from "@/components/animated-text";
+import { FeaturedProject } from "@/components/featured-project";
+import { Layout } from "@/components/layout";
 
 import manageLandingPage from '../../public/images/projects/manage-landing-page.png';
 import nexter from '../../public/images/projects/nexter.png';

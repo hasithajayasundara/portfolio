@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useRef } from "react";
 
-import { ListIcon } from "./ListIcon";
+import { ListIcon } from "./list-icon";
 
 type Props = {
   type: string;

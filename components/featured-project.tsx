@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
-import { GitHubIcon } from "./Icons";
+import { GitHubIcon } from "./icons";
 
 type Props = {
   title?: string;
