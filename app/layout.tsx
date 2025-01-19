@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 
 import "./globals.css";
 import { Footer } from "@/components/footer";
 import { NavBar } from "@/components/nav-bar";
 
-const montserrat = Montserrat({
+const openSans = Open_Sans({
   variable: "--font-primary",
   subsets: ["latin"],
 });
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} font-sans antialiased bg-light text-dark`}
+        className={`${openSans.variable} font-sans antialiased bg-light text-dark`}
       >
         <NavBar />
         {children}
