@@ -14,10 +14,9 @@ export default {
         sans: ['var(--font-primary)', ...fontFamily.sans]
       },
       colors: {
-        dark: "#1b1b1b",
-        light: "#e8f9ff",
-        primary: "#3e52b6",
-        primaryDark: "#58E6D9",
+        dark: "#000",
+        light: "#fff",
+        primary: "#fff",
       },
     },
     screens: {
