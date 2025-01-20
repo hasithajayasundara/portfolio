@@ -25,7 +25,7 @@ const About = () => {
               achieve project goals and exceed performance targets. Well-versed in designing and implementing robust CI/CD pipelines,
               containerisation strategies, and cloud-native deployments with Docker and Kubernetes.
             </p>
-            <p className="font-medium my-4">
+            <p className="font-medium">
               Passionate about continuously evolving technical expertise, exploring emerging technologies, and delivering innovative software engineering solutions.
               Known for driving seamless integration of complex systems, improving code quality, and improving application maintainability through best practices.
             </p>

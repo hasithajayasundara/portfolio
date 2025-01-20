@@ -33,7 +33,7 @@ export const ExperienceDetails = ({
       >
         <h3 className="font-bold text-2xl sm:text-xl xs:text-lg">
           {position}&nbsp;
-          <Link href={companyLink} target="_blank" className="text-primary">
+          <Link href={companyLink} target="_blank" className="text-dark/75">
             @{company}
           </Link>
         </h3>
