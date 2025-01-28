@@ -3,14 +3,14 @@ import Link from "next/link";
 
 import { AnimatedText } from "@/components/animated-text";
 import { Layout } from "@/components/layout";
-import profilePic from '../public/images/profile/hasithaj-02.png';
+import profilePic from '../public/images/profile/hasithaj.png';
 
 const Home = () => {
   return (
     <main className="flex items-center w-full min-h-screen text-dark">
       <Layout className="pt-0 md:pt-16 sm:pt-8">
         <div className="flex items-center justify-center w-full lg:flex-col gap-16">
-          <div className="w-96 flex items-center justify-center">
+          <div className="w-60 flex items-center justify-center rounded-full overflow-hidden border-2 border-dark">
             <Image
               priority
               src={profilePic}
@@ -24,11 +24,9 @@ const Home = () => {
               className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
             />
             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-              As a tech-savvy professional with extensive experience in driving technical innovation,
-              I am passionate about creating scalable, efficient software solutions that not only
-              meet business objectives but exceed them. With a strong track record in full-stack
-              development, I thrive in delivering cutting-edge technology solutions that streamline
-              operations and empower businesses to perform at their best.
+              Results-driven Software Engineer with extensive experience in developing scalable web applications and 
+              optimizing frontend and backend systems. Passionate about adopting cutting-edge technologies to deliver 
+              high-impact, user-centric software solutions in fast-paced, agile environments.
             </p>
             <div className="flex items-center self-start mt-2 lg:self-center">
               {/*<Link

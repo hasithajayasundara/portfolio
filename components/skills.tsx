@@ -57,7 +57,7 @@ const config: SkillType[] = [
 
 export const Skills = () => (
   <>
-    <h2 className="text-dark font-bold text-8xl mt-64 w-full text-center mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8">
+    <h2 className="text-dark font-bold text-8xl w-full text-center mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8">
       Skills
     </h2>
     <div className="w-full h-full grid grid-cols-7 gap-10 xl:grid-cols-5 md:grid-cols-4 xs:grid-cols-2">
