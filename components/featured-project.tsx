@@ -20,6 +20,7 @@ export const FeaturedProject = ({
   return (
     <article className="w-full flex flex-col items-center rounded-2xl border border-solid border-dark bg-light shadow-2xl overflow-hidden">
       <Image
+        placeholder="blur"
         src={img ?? ''}
         alt={title ?? ''}
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
