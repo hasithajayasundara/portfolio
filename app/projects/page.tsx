@@ -44,7 +44,7 @@ const Projects = () => {
         <AnimatedText text="Projects" className="mb-16 lg:!text-7xl sm:!mb-8m sm:!text-6xl xs:!text-4xl" />
         <div className="grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
           {projects.map((project, index) => (
-            <div key={index} className="col-span-4 md:col-span-12">
+            <div key={index} className="col-span-4 lg:col-span-6 md:col-span-12">
               <FeaturedProject
                 title={project.title}
                 summary={project.summary}
