@@ -24,7 +24,7 @@ export const ExperienceDetails = ({
   const ref = useRef(null);
 
   return (
-    <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
+    <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col place-items-start justify-between md:w-[80%]">
       <ListIcon reference={ref} />
       <motion.div
         initial={{ y: 50 }}
