@@ -2,10 +2,10 @@ import { AnimatedText } from "@/components/animated-text";
 import { FeaturedProject } from "@/components/featured-project";
 import { Layout } from "@/components/layout";
 
-import manageLandingPage from '../../public/images/projects/manage-landing-page.png';
-import nexter from '../../public/images/projects/nexter.png';
-import slackClone from '../../public/images/projects/slack-clone.png';
-import spaceTravel from '../../public/images/projects/space-travel.png';
+import manageLandingPage from '../../public/images/projects/manage-landing-page.webp';
+import nexter from '../../public/images/projects/nexter.webp';
+import slackClone from '../../public/images/projects/slack-clone.webp';
+import spaceTravel from '../../public/images/projects/space-travel.webp';
 
 const projects = [
   {

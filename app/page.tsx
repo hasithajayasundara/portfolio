@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { AnimatedText } from "@/components/animated-text";
 import { Layout } from "@/components/layout";
-import profilePic from '../public/images/profile/hasithaj.png';
+import profilePic from '../public/images/profile/hasithaj.webp';
 
 const Home = () => {
   return (
