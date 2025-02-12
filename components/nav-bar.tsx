@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import { CustomLink } from "./custom-link";
 import { CustomMobileLink } from "./custom-mobile-link";
-import { GitHubIcon, LinkedInIcon } from "./icons";
+import { BloggerIcon, GitHubIcon, LinkedInIcon } from "./icons";
 
 const MotionLink = motion.create(Link);
 
@@ -43,6 +43,9 @@ export const NavBar = () => {
             <MotionLink href="https://www.linkedin.com/in/hasithanjo2/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
               <LinkedInIcon className="w-8" />
             </MotionLink>
+            <MotionLink href="https://learnjavawithisla.blogspot.com/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
+              <BloggerIcon className="w-8" />
+            </MotionLink>
             {/*<button onClick={() => setMode(mode === 'light' ? 'dark' : 'light')} className="ml-3 flex items-center justify-center rounded-full p-1">
           {mode === 'dark' ? <SunIcon className="fill-dark" /> : <MoonIcon className="fill-dark" />}
         </button>*/}
@@ -63,6 +66,9 @@ export const NavBar = () => {
           <MotionLink href="https://www.linkedin.com/in/hasithanjo2/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
             <LinkedInIcon className="w-8" />
           </MotionLink>
+          <MotionLink href="https://learnjavawithisla.blogspot.com/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
+              <BloggerIcon className="w-8" />
+            </MotionLink>
           {/*<button onClick={() => setMode(mode === 'light' ? 'dark' : 'light')} className="ml-3 flex items-center justify-center rounded-full p-1">
           {mode === 'dark' ? <SunIcon className="fill-dark" /> : <MoonIcon className="fill-dark" />}
         </button>*/}
